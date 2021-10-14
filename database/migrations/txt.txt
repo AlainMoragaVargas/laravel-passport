@@ -1,0 +1,8 @@
+        return \DB::table('users')->insert([
+            [
+                "id" => 1,
+                "name" => 'AlainMoraga',
+                "email" => 'alain.andres.moraga.vargas@gmail.com',
+                "password" => Hash::make('12345678')
+            ]
+        ]);
